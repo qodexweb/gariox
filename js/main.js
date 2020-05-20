@@ -175,7 +175,40 @@
 				}
 			}
 		]
-    });
+	});
+	
+	// client-logo slider
+	$('.client-logo-wrapper').slick({
+		dots: false,
+		arrows: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 3,
+				arrows: false,
+			}
+		},
+		{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 2,
+				arrows: false,
+			}
+		}
+		]
+	});
 
 	$('#demo-pie-1').pieChart({
 		barColor: '#4eae4a',
