@@ -1,0 +1,87 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {     
+    .slider-active .slick-arrow { left: 15px; }
+    .slider-active .slick-arrow.fa-chevron-right { right: 15px; }
+    .slick-style .slick-arrow { left: -50px; }
+    .slick-style .slick-arrow.fa-long-arrow-right { right: -50px; }
+    .testimonial-active .slick-arrow { left: -375px; }
+    .testimonial-active .slick-arrow.fa-long-arrow-right { right: -300px; }
+    .service-section .shape-1 { display: none; }
+    .slider-style-3 h1 { font-size: 90px; }
+    .scroll-top { bottom: 50px; right: 50px; }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu { float: right; }
+    .main-menu ul > li.submenu:hover > ul { right: 0; }
+    .main-menu ul li.submenu > ul { left: -100%; }
+    .slider-active .slick-arrow { left: 15px; }
+    .slider-active .slick-arrow.fa-chevron-right { right: 15px; }
+    .slider-active ul.slick-dots { left: 0; right: 0; text-align: center; }
+    .slick-style .slick-arrow { left: -75px; }
+    .slick-style .slick-arrow.fa-long-arrow-right { right: -75px; }
+    .header-transparent .main-menu { float: left; }
+    .header-bottom-2 { padding: 0 20px; }
+    .slider-style-2 h1 { font-size: 80px; line-height: 90px; }
+    #map { height: 500px !important; }
+    .footer-left .footer-widget p { padding-right: 0px; }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-content h1 { font-size: 70px; }
+    .slider-active ul.slick-dots { left: 0; right: 0; text-align: center; }
+    .slick-style .slick-arrow { left: -50px; }
+    .slick-style .slick-arrow.fa-long-arrow-right { right: -50px; }
+    .header-top-right ul li.open-hour { display: none; }
+    .header-phone, .header-location { display: none !important; }
+    .header-bottom-2 .mean-container a.meanmenu-reveal { top: -32px; color: #fff; border-color: #fff; }
+    .header-bottom-2 .mean-container a.meanmenu-reveal span { background: #fff; }
+    .header-bottom-2 { background: none; padding: 0; }
+    .header-bottom-right { display: none; }
+    .slider-style-2 .slider-content { padding-top: 275px; }
+    .slider-style-2 h1 { font-size: 70px; line-height: 80px; }
+    #map { height: 500px !important; }
+    .footer-right { margin-left: 0; }
+    .header-style-3 { padding: 15px 15px 0px; }
+    .header-style-3 .mean-container a.meanmenu-reveal { top: 0px; color: #fff; border-color: #fff; }
+    .header-style-3 .mean-container a.meanmenu-reveal span { background: #fff; }
+    .slider-content p br { display: none; }
+    .slider-style-3 .slider-content { padding-top: 250px; padding-bottom: 230px; }
+    .header-bottom { padding-top: 12px; }
+    .scroll-top { bottom: 30px; right: 30px; }
+    .footer-left .footer-widget p { padding-right: 0px; }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    h2 { font-size: 30px; }
+    .header-bottom { padding-top: 12px; }
+    .header-top-left { text-align: center; }
+    .header-top-left ul li a { margin: 0 8px; }
+    .header-top-right { display: none; }
+    .slider-content h1 { font-size: 47px; line-height: 55px; }
+    .slider-active ul.slick-dots { left: 0; right: 0; text-align: center; }
+    .slider-content { padding: 120px 0px; }
+    .section-title h2 { line-height: 38px; font-size: 28px; }
+    #map { height: 500px !important; }
+    .header-top-right ul li.open-hour { display: none; }
+    .header-phone, .header-location { display: none !important; }
+    .header-bottom-2 .mean-container a.meanmenu-reveal { top: -32px; color: #fff; border-color: #fff; }
+    .header-bottom-2 .mean-container a.meanmenu-reveal span { background: #fff; }
+    .header-bottom-2 { background: none; padding: 0; }
+    .header-bottom-right { display: none; }
+    .footer-left { padding: 80px 30px 80px; }
+    .footer-right { margin-left: 0; }
+    .header-style-3 { padding: 15px 15px 0px; }
+    .header-style-3 .mean-container a.meanmenu-reveal { top: 0px; color: #fff; border-color: #fff; }
+    .header-style-3 .mean-container a.meanmenu-reveal span { background: #fff; }
+    .scroll-top { bottom: 30px; right: 30px; }
+    .footer-left .footer-widget p { padding-right: 0px; }
+    .container { padding-left: 25px; padding-right: 25px; }
+}
