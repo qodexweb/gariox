@@ -176,6 +176,40 @@
 			}
 		]
 	});
+
+	// testimonial-active slider
+    $('.testimonial-active').slick({
+		dots: false,
+		arrows: true,
+		prevArrow: '<i class="far fa-arrow-left"></i>',
+		nextArrow: '<i class="far fa-arrow-right"></i>',
+		infinite: true,
+		speed: 300,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+				}
+			}
+		]
+	});
 	
 	// client-logo slider
 	$('.client-logo-wrapper').slick({

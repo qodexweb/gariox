@@ -60,18 +60,6 @@ label { color: #223645; font-size: 18px; font-weight: 600; margin-bottom: 15px; 
 /* button style */
 
 .btn { -moz-user-select: none; border: medium none; border-radius: 0px; color: #fff; cursor: pointer; display: inline-block; font-size: 15px; font-weight: 700; letter-spacing: 0; line-height: 1; margin-bottom: 0; padding: 25px 40px; text-align: center; touch-action: manipulation; transition: all 0.3s ease 0s; vertical-align: middle; white-space: nowrap; border: 2px solid transparent; }
-.theme-btn { background: #47be42; padding: 25px 40px; }
-.theme-btn:hover { background: rgb(51, 170, 46) }
-.theme-btn2 { background: #ff8b00; color: #fff; }
-.theme-btn2:hover { background: rgb(235, 119, 20); }
-.theme-btn2.btn-border::after { border-color: #ff8b00; }
-.theme-btn2 i, .theme-btn i { margin-left: 10px; }
-.theme-btn:active, .theme-btn:focus, .theme-btn2:active, .theme-btn2:focus, .theme-btn2:hover, .theme-btn:hover { color: #fff; }
-.btn-border { position: relative; z-index: 1; margin-left: 5px; margin-bottom: 5px; }
-.btn-border::after { position: absolute; content: ''; width: calc(100% + 14px); height: calc(100% + 14px); top: -7px; left: -7px; background-color: transparent; z-index: -1; border: 2px solid #47be42; }
-.theme-color { color: #27ae60; }
-.bg-overlay { z-index: 1; }
-.bg-overlay::after { content: ''; position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: #232323; opacity: .89; z-index: -1; }
 
 /* 02. Header css */
 
